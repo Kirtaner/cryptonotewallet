@@ -36,7 +36,7 @@ link_directories(${Boost_LIBRARY_DIRS})
 
 set(VERSION "")
 configure_file("stankcoin/src/version.h.in" "version.h")
-configure_file("src/CryptoNoteWalletConfig.h.in" "CryptoNo teWalletConfig.h")
+configure_file("src/CryptoNoteWalletConfig.h.in" "CryptoNoteWalletConfig.h")
 
 add_definitions(-DGIT_REVISION=\"${GIT_REVISION}\")
 
