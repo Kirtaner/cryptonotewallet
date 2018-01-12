@@ -1,0 +1,3 @@
+[submodule "stankcoin"]
+	path = stankcoin
+	url = https://github.com/Kirtaner/stankcoin.git
